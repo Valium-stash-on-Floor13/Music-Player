@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+   
+    <script src="https://kit.fontawesome.com/20bac16b9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+ 
+   
+ 
+
+
+    
+</head>
+<body>
+   <main class="player">
+       <div class="header">
+          
+          
+           <a href="#" class="button">
+               <label>
+                   <input type="checkbox" name="theme">
+                   <i class="fas fa-moon"></i>
+               </label>
+           </a>
+       </div>
+       
+       <img src="img/When it's dark out.jpg" alt="Unexpected Error" id="image" class="image">
+    <div class="information">
+        <h1 id="playlist-status">Status</h1>
+        <p id="playlist-artists">Artist</p>
+    </div>
+    <div class="progress">
+        <div class="progress-time">
+            <span id="current-time" class="left">00:00</span>
+            <span id="duration-time-text" class="right">00:00</span>
+        </div>
+        <div class="progress-bar">
+            <input type="range" name="" id="seek-slider" class="seekslider" min="0" max="100" value="0" step="1">
+        </div>
+    </div>
+    <ul class="buttons">
+        
+        <span id="random" class="shuffle button button-sm">
+        <i class="fa fa-random"></i>
+    </span>
+    <span id="prev-btn" class="prev button button-md">
+        <i class="fas fa-step-backward"></i>
+    </span>
+
+    <span id="play-pause-btn" class="playpause button button-sm">
+        <i class="fas fa-play fa-lg"></i>
+        <i class="fas fa-pause fa-lg"></i>
+    </span>
+
+    <span id="next-btn" class="next button button-md">
+        <i class="fas fa-step-forward fa-sm"></i>
+    </span>
+    <span id="repeat" class="loop button button-sm">
+        <i class="fas fa-circle-notch fa-sm"></i>
+    </span>
+</ul>
+
+<div class="bar"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
