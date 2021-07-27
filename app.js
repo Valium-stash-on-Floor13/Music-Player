@@ -13,18 +13,18 @@ let image=document.querySelector('#image');
 let playlistIndex=0;
 let themeToggle=true;
 const dir="/songs/";
-const playlist=["G-Eazy_-_Don't_Let_Me_Go", "Lorde_-_Hard_Feelings", "EDEN_-_drugs","Rosenfeld_-_Cool_Cool_Boy","BLACK_LILYS_-_Nightfall", "Jaymes_Young_-_Feel_Something",
-"Medicine","FINNEAS_-_Can't_Wait_To_Be_Dead","Machine_Gun_Kelly_–_53666_feat._Phem"];
+const playlist=[ "Lorde_-_Hard_Feelings","BLACK_LILYS_-_Nightfall", 
+"FINNEAS_-_Can't_Wait_To_Be_Dead"];
 
-const title=["Don't Let Me Go", "Hard Feelings/Loveless","Drugs","Cool Cool Boy",
-"Nightfall", "Feel Something", "Medicine",
- "Can't Wait To Be Dead", "5:3666"]
+const title=[ "Hard Feelings/Loveless",
+"Nightfall", 
+ "Can't Wait To Be Dead"]
 
-const poster=["/img/When it's dark out.jpg","img/Lorde_Hard feelings.jpg","img/drugs.jpg","img/Rosenfeld cool.jpg",
-"img/Black lilys_Nightfalll.jpg","img/feel_something.jpg", "img/Daughter_Medicine.jpg"
-    , "img/Finneas_Can't wait to be dead.jpg","img/5_3666.jpg"];
+const poster=["img/Lorde_Hard feelings.jpg"
+             "img/Black lilys_Nightfalll.jpg"
+             "img/Finneas_Can't wait to be dead.jpg"];
 
-const artists=["G-Eazy", "Lorde","EDEN", "Rosenfeld", "Black Lilys", "Jaymes Young", "Daughter", "Finneas", "MGK"];
+const artists=["Lorde", "Black Lilys", "Finneas"];
 
 let ext=".mp3";
 
