@@ -20,8 +20,8 @@ const title=[ "Hard Feelings/Loveless",
 "Nightfall", 
  "Can't Wait To Be Dead"]
 
-const poster=["img/Lorde_Hard feelings.jpg"
-             "img/Black lilys_Nightfalll.jpg"
+const poster=["img/Lorde_Hard feelings.jpg",
+             "img/Black lilys_Nightfalll.jpg",
              "img/Finneas_Can't wait to be dead.jpg"];
 
 const artists=["Lorde", "Black Lilys", "Finneas"];
